@@ -36,6 +36,8 @@ preparing Release 0.3.3
 
 Improvements
   - Jubatus loads plugin from default directory (#57)
+  - libmecab_splitter works well in multi-thread environment, and now only support mecab ver. 0.99 or later
+  - word_splitter::split method is now constant
 
 Release 0.3.2 2012/9/21
 ~~~~~~~~~~~~~~~~~~~~~~~
